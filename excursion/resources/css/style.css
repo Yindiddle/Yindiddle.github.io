@@ -1,0 +1,70 @@
+﻿/* resources/css/style.css */
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+    line-height: 1.6;
+    width: 60%;
+}
+
+.download-excursion {
+    color: aquamarine;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.excursion-video {
+    display: block;
+    margin: 0px auto;
+    max-width: 500px;
+    height: 500px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.excursion-video:focus {
+    outline: none;
+}
+
+/* Style for the inserted image */
+.camp-image {
+    display: block;               /* Makes the image a block-level element */
+    margin: 20px auto;            /* Centers the image horizontally with 20px top and bottom margin */
+    max-width: 600px;               /* Ensures the image doesn't exceed 90% of its container's width */
+    height: auto;                 /* Maintains the aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+}
+
+.phone-image {
+    display: block;               /* Makes the image a block-level element */
+    margin: 20px auto;            /* Centers the image horizontally with 20px top and bottom margin */
+    max-width: 100px;               /* Ensures the image doesn't exceed 90% of its container's width */
+    height: auto;                 /* Maintains the aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+}

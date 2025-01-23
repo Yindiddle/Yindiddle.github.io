@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiragana Learning App</title>
+    <link rel="stylesheet" href="resources/css/japchars-style.css">
+    <script src="resources/js/japchars.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn Japanese Hiragana with Yindiddle's interactive app. Practice recognizing and understanding Hiragana characters through multiple-choice quizzes.">
+    <meta property="og:title" content="Yindiddle - Hiragana Learning App">
+    <meta property="og:description" content="An interactive app to help you learn and practice Japanese Hiragana characters.">
+    <meta property="og:image" content="resources/imgs/og-image.jpg">
+    <meta property="og:url" content="https://yindiddle.github.io/JapChars/">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="/index.html">Yindiddle</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/JapChars/" class="active">Japanese Characters</a></li>
+                    <!-- Future menu items can be added here -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- App Container -->
+        <section id="app">
+            <div class="app-container">
+                <!-- Hiragana Character Display -->
+                <div id="hiragana-character" class="hiragana-character">
+                    <!-- Character will be injected here by JavaScript -->
+                </div>
+
+                <!-- Reveal Options Button -->
+                <button id="reveal-options" class="btn">Reveal Options</button>
+
+                <!-- Multiple Choice Options -->
+                <div id="options" class="options-container" style="display: none;">
+                    <!-- Options will be injected here by JavaScript -->
+                </div>
+
+                <!-- Feedback Message -->
+                <div id="feedback" class="feedback" style="display: none;">
+                    <!-- Feedback will be injected here by JavaScript -->
+                </div>
+
+                <!-- Next Character Button -->
+                <button id="next-character" class="btn" style="display: none;">Next Character</button>
+
+                <!-- Score Display -->
+                <div id="score" class="score">
+                    Correct: 0 | Wrong: 0
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Yindiddle. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
