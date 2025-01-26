@@ -7,15 +7,15 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #585858; /* Soft grey background */
-    color: #C0C0C0; /* Dark grey text for contrast */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text for contrast */
     line-height: 1.6;
 }
 
 /* Header */
 header {
     background-color: #282828; /* Dark background for contrast */
-    color: #color;
+    color: #fff;
     padding: 20px 0;
 }
 
@@ -67,28 +67,14 @@ main {
 
 /* Introduction Section */
 .intro-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
-}
-
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.intro-text {
-    max-width: 600px;
-    margin-left: 20px;
+    padding: 40px 0;
 }
 
 h1 {
     font-size: 36px;
     color: #333;
+    margin-bottom: 20px;
 }
 
 p {
@@ -97,19 +83,19 @@ p {
 }
 
 /* Skills Section */
-#skills, #projects, #contact {
+#skills, #contact {
     margin-top: 40px;
     text-align: center;
 }
 
-.skills-container, .projects-container {
+.skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.skill, .project-card {
+.skill {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -118,14 +104,24 @@ p {
     text-align: center;
 }
 
-.skill h3, .project-card h3 {
+.skill h3 {
     color: #ff9900;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
-.project-image {
-    width: 100%;
-    border-radius: 10px;
+.skill p {
+    font-size: 16px;
+    color: #555;
+}
+
+.skill a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.skill a:hover {
+    text-decoration: underline;
 }
 
 /* Contact Section */
@@ -140,39 +136,4 @@ p {
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-
-    .intro-container {
-        flex-direction: column;
-    }
-
-    .intro-text {
-        margin-left: 0;
-    }
-}
+    text-decoration:
